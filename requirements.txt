@@ -1,0 +1,73 @@
+# Core LLM
+openai
+google-genai
+
+# LangChain
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+langchain-huggingface
+langchain-chroma
+langchain-google-genai
+
+# Loggers
+loguru
+
+# Agent Framework
+langgraph
+
+# Vector Database
+ 
+chromadb
+
+# Document Processing
+pypdf
+pymupdf
+python-docx
+unstructured
+
+# Data Processing
+pandas
+numpy
+
+# API Backend
+fastapi
+uvicorn[standard]
+python-multipart
+
+# Frontend
+streamlit
+
+# Environment
+python-dotenv
+
+# HTTP
+requests
+httpx
+
+# Validation
+pydantic
+
+# Utilities
+tqdm
+tenacity
+
+# Evaluation (Optional)
+ragas
+datasets
+
+# Hugging Face 
+transformers
+sentence-transformers   
+huggingface_hub 
+
+# GPU Support (Optional)
+torch
+torchvision
+torchaudio
+
+# Ragas
+ragas
+datasets 
+pandas
