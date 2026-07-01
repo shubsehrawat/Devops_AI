@@ -5,6 +5,8 @@ load_dotenv()
 
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+
 CHROMA_PERSIST_DIR = os.getenv("CHROMA_PERSIST_DIR", "./chroma_db")
 
 COLLECTION_NAME = os.getenv("CHROMA_COLLECTION", "devops_ai")

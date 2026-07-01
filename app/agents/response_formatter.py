@@ -71,22 +71,19 @@ class ResponseFormatter:
         templates = {
 
             "rca": """
-                Provide the answer using the following sections:
+            Provide the answer using the following sections:
 
-                ## Issue Summary
+            ## Issue Summary
 
-                ## Root Cause
+            ## Root Cause
 
-                ## Business Impact
+            ## Business Impact
 
-                ## Resolution
+            ## Resolution
 
-                ## Preventive Actions
+            ## Preventive Actions
 
-                ## Related Documents
-
-
-                """,
+            """,
 
             "runbook": """
                 Provide the answer using the following sections:

@@ -15,7 +15,7 @@ st.caption("Hybrid RAG + Agentic AI")
 query = st.text_area(
     "Ask a DevOps Question",
     height=120,
-    placeholder="Example: Why did the Payment API fail yesterday?",
+    placeholder="Enter your question here....",
 )
 
 if st.button("Ask AI", type="primary"):
@@ -63,3 +63,8 @@ if st.button("Ask AI", type="primary"):
     st.markdown(result["answer"])
 
     st.divider()
+
+    # add sources section
+    st.subheader("Sources")
+    for source in result["sources"]:
+        st.markdown(f"- {source}")

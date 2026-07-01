@@ -29,7 +29,7 @@ class LLMService:
             api_key=GOOGLE_API_KEY
         )
 
-        self.model = "gemini-2.5-flash-lite"
+        self.model = "gemini-3.1-flash-lite"
 
         logger.info(f"Initialized Gemini Model: {self.model}")
 
@@ -52,4 +52,18 @@ class LLMService:
             f"Gemini Response Time : {time.perf_counter() - start:.2f} sec"
         )
 
+        logger.info("=" * 80)
+        logger.info("PROMPT SENT TO GEMINI")
+        logger.info("=" * 80)
+        logger.info(prompt)
+        logger.info("=" * 80)
+
+
+        logger.info("=" * 80)
+        logger.info("RAW GEMINI RESPONSE")
+        logger.info("=" * 80)
+        logger.info(response)
+        logger.info("=" * 80)
+
+        print(response)
         return response.text
